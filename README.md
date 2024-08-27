@@ -1,16 +1,14 @@
 # collabrademo
 
-A new Flutter project.
+# Collabera Cart App
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+This Flutter app displays a list of products fetched from a mock API. Users can view product details, add products to a cart, and view the cart contents.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Product List Screen**: Seperate widgets used for design(ShopItemListing, ItemView) Shows a list of products with thumbnail, name, and price. Includes pull-to-refresh.
+- **Product Detail Screen**: Displays detailed information about a product with an option to add it to the cart.
+- **Cart Screen**: Shows added products with the total price and an option to remove items.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
